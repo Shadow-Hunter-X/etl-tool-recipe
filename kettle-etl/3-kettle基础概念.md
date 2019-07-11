@@ -47,3 +47,12 @@ Another key difference is that all the steps in a transformation execute in para
     对于自定义变量的，最常用的方式间变量保存到kettle.properies中。也可以在作业执行的时候动态设置变量，通过转换进行设置，使用“set variables”步骤，对于更灵活的情况下，可以使用“JavaScript”或“user defined java class” 步骤。
 
 -   命名参数
+    对于有一些变量应该作为转换或作业的参数更好，可以在设置对话框的“命名参数”标签页面下设置这些参数
+
+![param](./res/3-param-r.png)
+
+
+-   对于变量和参数的使用方法        
+    引用变量使用 **${}** 符号,在所有的能使用变量的输入框，都有一个菱形美元符号的表及位于文本框的右方。
+
+![param](./res/3-use-param.png)
